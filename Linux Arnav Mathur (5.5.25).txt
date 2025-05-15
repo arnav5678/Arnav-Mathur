@@ -1,0 +1,87 @@
+Linux:-A family of open-source Unix-like operating systems primarily based on the Linux kernel, a software that manages hardware resources for a computer. It's a versatile platform used in various devices, from servers and supercomputers to mobile phones and embedded systems.
+
+#Key Features of Linux are:-
+
+1) Open Source
+
+2) Customization
+
+3) Versatility
+
+# Basic command used in Linux
+
+1) pwd :- Display the full path of the current working directory.
+
+2) ls :- Used to list the contents of a directory.
+
+3) mkdir :- It is used to create new directories or folders.
+
+4) rmdir :- It is used to remove empty directories.
+
+5) cd:- It is used to change the current working directory.
+
+6) cd.. :- This command moves you to parent directory of the current directory or used to back from current folder.
+
+7) touch :- It is used to create file.
+
+8) mkdir movie{1..5} :- To create multiple folders.
+
+9) echo :- It works like print command.
+
+10) rm :- It is used to remove file.
+
+11) rm-rvf :- It is used to remove file force fully.
+
+12) rm-- help :- shows all the functions of the give command.
+
+13) sudo apt update - Refreshes or update the packages.
+
+14) sudo apt install cmatrix :- To install packages of cmatrix
+
+15) sudo apt install hollywood :-  To install packages of Hollywood
+
+16) sudo apt :- It is used to manage software packages.
+
+17) cat:- It is used to save data in text file.
+
+18) cat "Arnav" >> user.txt :- To save data permanently in text file without overwriting it or append the text.
+
+19) history :- It is used to show all previous command we have used .
+
+20) Ctrl + C :- It is used to terminate program.
+
+21) Ctrl + L :- It is used to clear terminal screen. 
+
+22) cp :- To copy file
+    Syntax - cp/home/tushar/Ranbir
+
+23) mv :- To cut & paste file in other folder and also used for renaming folder name.
+    syntax- mv bajiraoo.txt newbajiraoo.txt
+
+24) cd :- To switch in between two or more folder
+
+25) press Tab :- For auto complete the give sentence.
+
+26)  vi :- to open Editor
+     syntax - vi yash.txt
+
+27) we use I in editor to use insert mode in editor.
+
+28) Press esc + :wq :- To exit from editor & save.
+
+29) cat yash.txt :-  To open the file.
+
+30) esc + yy :- To copy file in editor.
+Press p to paste line in editor.
+
+32) esc + dd to cut file in editor.
+Press p to paste line in editor.
+
+33) esc + :q :- To quit editor mode.
+
+34) esc + :q! :- To forcefully exit editor mode.
+
+35) truncate :- It is used to make files of specific size.
+ 
+
+ 
