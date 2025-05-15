@@ -1,0 +1,62 @@
+# Setup AWS
+
+1)Go to the AWS website: Open your web browser and go to https://aws.amazon.com/.
+ 
+2)Click "Create an AWS account": This button will be prominently displayed on the homepage, according to AWS Documentation https://docs.aws.amazon.com/accounts/latest/reference/manage-acct-creating.html.
+ 
+3)Enter your email: Provide the email address you want to use for your AWS account. 
+
+4)Verify your email: You'll receive an email from AWS with a verification code. Enter the code on the website to confirm your email address.
+ 
+5)Create a password: Choose a strong password for your root user account.
+ 
+6)Add your contact information: Choose whether it's a "Personal" or "Business" account and provide the necessary details.
+ 
+7)Add a payment method: Enter your payment information to be able to start paying for services. 
+
+8)Verify your phone number: You'll receive a verification code via phone call or SMS.
+ 
+9)Choose a support plan: Select the AWS Support plan that suits your needs.
+ 
+10)Complete sign up: Once you've chosen a support plan, click "Complete Sign Up".
+ 
+11)Check your email: You should receive an email confirming your account activation.
+
+# Setup EC2 in AWS
+
+1)Log in to the AWS Management Console: Access the AWS console using your account credentials. 
+
+2)Navigate to EC2: Find the EC2 service in the AWS console and click on it to open the EC2 dashboard. 
+
+3)Launch Instance: Click the "Launch Instance" button to start the instance creation process. 
+4)Choose an AMI (Amazon Machine Image): Select the operating system you want to use (e.g., Amazon Linux, Ubuntu, Windows). 
+
+5)Choose an Instance Type: Select the instance type that fits your needs in terms of CPU, memory, and storage. 
+
+6)Create a Key Pair: If you don't already have one, create a key pair for secure access to your instance (download and store the private key securely). 
+
+7)Configure Security Groups: Choose an existing security group or create a new one to control inbound and outbound traffic to your instance. 
+
+8)Configure Storage (Optional): Adjust the root volume size and add additional storage as needed. 
+
+9)Configure Advanced Options (Optional): Set up tags, VPC, subnet, and other advanced settings. 
+
+10)Launch Instance: Click the "Launch Instance" button to finalize the creation process. 
+
+11)Connect to your Instance: Once the instance is launched, you can connect using SSH (for Linux) or RDP (for Windows) and your key pair.  
+
+# Performing basic task and deploying website by using aws
+
+sudo systemctl start apache2
+
+sudo apt install unzip -y
+
+unzip file.zip
+
+mv /var/www/html/<your-folder>/* /var/www/html/
+
+# Basic features of .tar file and .zip file
+1).tar file :- A tar file, short for "tape archive", is a method of archiving files in a single file, often used for backups or distribution. It bundles multiple files and directories into a single archive without compressing them, maintaining file structure and permissions. Tar files are typically compressed using other tools like gzip or bzip2.
+
+2).zip file :- A ZIP file is a common archive format that compresses one or more files into a single, smaller file, saving storage space and speeding up file transfers. It's a popular way to easily share multiple files or large datasets. 
+
