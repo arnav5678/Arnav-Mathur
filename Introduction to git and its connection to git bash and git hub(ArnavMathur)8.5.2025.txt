@@ -1,0 +1,132 @@
+#Setup and installing Gitbash
+
+To install Git Bash, download and run the Git for Windows installer from the official Git website. During the installation, you can customize components and the default editor, but the default settings are usually sufficient. Git Bash is then included in the Git installation. 
+Detailed Steps:
+1. Download Git for Windows:
+Navigate to the Git website and download the latest version for your Windows operating system. 
+2. Run the Installer:
+Execute the downloaded .exe file to start the installation process. 
+3. Follow the Installation Wizard:
+Accept the license agreement and choose your desired installation directory (default is usually fine). 
+4. Customize Components (Optional):
+You can choose to install additional components, like the desktop shortcut or the ability to right-click on folders and select "Git Bash Here". 
+5. Choose Default Editor (Optional):
+If you don't prefer Vim (the default), select a different text editor for use with Git. 
+6. Complete Installation:
+Follow the remaining prompts and click "Install" to finalize the installation. 
+Verification:
+You can verify the installation by opening Git Bash (usually found in the Start Menu or by right-clicking a folder and selecting "Git Bash Here"). 
+Type git --version in the Git Bash terminal to see the installed Git version. 
+
+# Operations performed on gitbash 
+
+$pwd 
+/c/Users/asd/summer-regex
+
+$git init
+Initialized empty Git repository in c:/Users/asd/summer-regex/.git/
+
+$git config --global user.name "Arnav Mathur"
+
+$ git config --global user.email "arnavmathur900@gmail.com
+
+$ touch home.html
+
+$ git status
+On branch master
+
+no commit yet
+
+Untracked file
+
+$ git add home.html
+$git status
+on branch master
+
+no commit yet
+
+changes to be commited:
+	new file: home.html
+
+$ echo "arnav" > home.html
+$git status
+on branch master
+
+no commit yet
+
+changes to be commited:
+	new file: home.html
+on branch master
+
+changes not staged for commit:
+	modified: home.html
+
+$ cat home.html
+$git status
+on branch master
+
+no commit yet
+
+changes to be commited:
+	new file: home.html
+
+$ cat home.html
+Arnav
+
+$ git restore home.html
+
+$cat home.htm;
+
+$ git status
+On branch master
+
+No commit
+
+	new file: home.html
+$ date > home.html
+
+$git status
+on branch master
+
+no commit yet
+
+changes to be commited:
+	new file: home.html
+on branch master
+
+changes not staged for commit:
+	modified: home.html
+
+$git status
+on branch master
+
+no commit yet
+change to be commited:
+	new file: home.html
+
+$ git commit -m "I have create home.html file"
+
+$ git status
+on branch master
+nothing to commit,working tree clean
+
+$ git status
+on branch master
+nothing to commit,working tree clean
+
+$ git log
+I have create home.html file
+
+# Connecting gitbash and GitHub
+$ git remote add origin https://github.com/arnav5678/main-git-assignment.git
+
+$ git branch -M main
+
+$ git push -u origin main
+
+# git merge is used to merge two repositiory
+ 
+
+
+
+
