@@ -1,0 +1,71 @@
+AWS:-short for Amazon Web Services, is the world's most comprehensive and broadly adopted cloud platform. It offers a wide range of cloud computing services, allowing businesses to build, operate, and manage applications on a secure, reliable, and scalable infrastructure. Essentially, AWS provides a way to access IT resources, like servers, storage, and databases, on demand, instead of having to manage them yourself. 
+
+#Basic features of AWS
+
+1)Wide Range of Services
+
+2)Pay-as-you-go
+ 
+3)Scalability and Reliability
+
+4)Global Infrastructure
+
+5)Security
+
+6)Innovation and Agility
+
+# AWS Service
+
+1) Amazon Elastic Compute Cloud (EC2): Provides virtual servers in the cloud.
+
+# AWS is used by startups, college students, Enterprises, Government Agencies etc.
+
+# Zip file :- A ZIP file is a common archive file format used for compressing and archiving one or more files into a single, smaller file. It's like a compressed folder that makes it easier to store, share, and distribute multiple files as a single unit.
+
+#How to create zip file
+# example 1
+tar.exe -a -c -f out.zip in.txt
+# example 2
+tar.exe -x -f out.zip
+
+# Tar file :- A TAR file, short for "tape archive," is a file format used to bundle multiple files and directories into a single archive. It's commonly used on UNIX-like systems for archiving and distributing software or updates.
+According to ScienceDirect and Library of Congress (.gov), a TAR file is not a compressed file, meaning it doesn't reduce the size of the files contained within. Instead, it simply packages them together. 
+
+#How to create tar file
+
+1)Open a terminal or command prompt: Navigate to the directory where you want to create the tar file.
+ 
+2)Use the tar command: 
+-Basic Syntax: tar cvf <archive_name.tar> <files_or_directories_to_archive> 
+-c: Creates a new archive. 
+-v: Provides verbose output, showing the progress of the archiving process. 
+-f: Specifies the name of the output archive file. 
+\<files_or_directories_to_archive\>: Specifies the files and/or directories you want to include in the archive . 
+Example: tar cvf hw10.tar main.c btree.c btree.h README would create a tar file named hw10.tar containing the specified files. 
+
+Example:- 
+
+1)Creating a tar archive of a directory:
+
+Code :- tar cvf myarchive.tar mydirectory
+
+2)This will create a tar file named myarchive.tar containing all files and subdirectories within mydirectory. 
+Creating a tar archive of specific files:
+
+Code :- tar cvf myarchive.tar file1.txt file2.pdf
+
+3)This will create a tar file named myarchive.tar containing the specified files file1.txt and file2.pdf. Compressing the tar file using gzip. 
+
+
+Code :- tar cvf myarchive.tar.gz mydirectory
+
+# Basic functions are:- 
+1) cf :- To create file.
+
+2) tf :- To list content of tar file
+ 
+3) xf :- To extract file from tar.
+
+# What is GitHub?
+GitHub :- GitHub is a web-based platform used for storing, sharing, and collaborating on code using Git, a version control system
+
