@@ -1,3 +1,5 @@
+Git Bash :- is a command-line application for Windows that provides a Unix-like environment, allowing users to run Linux commands and utilities
+
 #Setup and installing Gitbash
 
 To install Git Bash, download and run the Git for Windows installer from the official Git website. During the installation, you can customize components and the default editor, but the default settings are usually sufficient. Git Bash is then included in the Git installation. 
