@@ -81,7 +81,7 @@ print("prime number", num)
 
 9) for i in range(1,9):
      print(i)
-print(---outside---)
+print("---outside---")
 
 output:-
 1
@@ -108,7 +108,7 @@ output:-
         continue
        print(i)
      
-print(---outside---)
+print("---outside---")
 
 output:-
 1
@@ -126,7 +126,7 @@ output:-
         continue
        print("fniudshaiuewfh")
      
-print(---outside---)
+print("---outside---")
 
 output:-
 1
