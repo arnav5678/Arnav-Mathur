@@ -1,0 +1,114 @@
+# Conditional statement
+
+i) If-else statement in python
+
+1) a=4
+   if(a>5):
+     print("hey")
+   else:
+      print("Condition is false")
+
+output:- 
+condition is false
+
+
+2) a=4
+   if(a>5 or a>2):
+     print("hey")
+   else:
+      print("Condition is false")
+
+output:- 
+hey
+ 
+ii) if-elif statements
+
+1) a=4
+   if(a>5 or a>2):
+     print("hey")
+   elif(a==10):
+       print("value of a is 10")
+   else:
+      print("Condition is false")
+
+output:- 
+hey
+
+iii) nested if- else statements
+
+1) num=12
+   if(num%2==0):
+     
+     if(num%5==0):
+       print("Number is even and divided by 5"
+     else:
+       print("Number is only even", num)
+    else:
+      print("Number is odd", num)
+
+output:-
+Number is only even 12 
+
+# String slicing and indexing
+# slicing => extracting some portion of your data
+# [start: stop : [step=1]]
+
+1)city="RAJASTHAN"
+  print(city[0])
+
+output:-
+R
+
+2)city="RAJASTHAN"
+  print(city[-3])
+
+output:-
+H
+
+3) city="RAJASTHAN"
+   print(city[1:5])
+
+output:-
+AJAS
+
+4)city="RAJASTHAN"
+  print(city[2:])
+
+output:-
+JASTHAN
+
+5)city="RAJASTHAN"
+  print(city[:4])
+
+output:-
+RAJA
+    
+6)city="RAJASTHAN"
+  print(city[0:4])
+
+output:-
+RAJA
+
+7)city="RAJASTHAN"
+  print(city[0:4:2])
+
+output:-
+RJ
+
+8)city="RAJASTHAN"
+  print(city[1:6:2])
+
+output:-
+AJAST
+
+9)city="RAJASTHAN"
+  print(city[0:5:-1])
+
+output:-
+RJ
+
+10)city="RAJASTHAN"
+   print(city[-1:-4:-1])
+
+output:-
+NAH 
