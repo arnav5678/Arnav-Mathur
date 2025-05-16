@@ -97,7 +97,7 @@ output:-
 10) for i in range(1,9):
      print(i)
      break
-print(---outside---)
+print("---outside---")
 
 output:-
 1
