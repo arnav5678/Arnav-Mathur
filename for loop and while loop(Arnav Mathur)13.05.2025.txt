@@ -1,0 +1,232 @@
+# for loop
+
+1)for(i=o; i<5; i++)
+  print("Hey")
+
+output:-
+Hey
+Hey
+Hey
+Hey
+
+2) for i in range(0,5)
+     print(i)
+
+output:-
+0
+1
+2
+3
+4
+
+3) for i in range(8,2,-1)
+     print(i)
+
+output:-
+8
+7
+6
+5
+4
+3
+
+4) # To get the sum of first 10 natural number
+total=0
+for i in range(0,11);
+  total=total + i
+  print(total)
+
+output:-
+55
+
+5) count=0
+   for i in range(80,56,-1);
+      count=count+1
+      print(i)
+
+output:-
+24
+
+6) for i in range(20,55);
+   if(i%2==0 and i%6==0);
+     print(i, "divided by 2 and 6")
+
+output:-
+24 divided by 2 and 6
+30 divided by 2 and 6
+36 divided by 2 and 6
+42 divided by 2 and 6
+48 divided by 2 and 6
+54 divided by 2 and 6
+
+7) num=10
+   for i in range(1,11):
+     if(num%i==0):
+       print("factor is:",i)
+output:-
+factor is: 1
+factor is: 2
+factor is: 5
+factor is: 10
+
+8) num=14
+   count=0
+   for i in range(1,num+1):
+     if(num%i==0):
+       count+=1
+if(count>2):
+  print("Not a prime", num)
+else:
+print("prime number", num) 
+
+9) for i in range(1,9):
+     print(i)
+print(---outside---)
+
+output:-
+1
+2
+3
+4
+5
+6
+7
+8
+---outside---
+
+10) for i in range(1,9):
+     print(i)
+     break
+print(---outside---)
+
+output:-
+1
+---outside---
+
+11) for i in range(1,9):
+      if(i==4) 
+        continue
+       print(i)
+     
+print(---outside---)
+
+output:-
+1
+2
+3
+4
+5
+6
+7
+8
+---outside---
+
+12) for i in range(1,9):
+      if(i==4) 
+        continue
+       print("fniudshaiuewfh")
+     
+print(---outside---)
+
+output:-
+1
+2
+3
+4
+5
+6
+7
+8
+---outside---
+
+#while loop
+# It is used when we did't no number of  iteration
+while(condition):
+   execute
+
+
+1)i=1
+  while(i<10):
+     print("hello",i)
+     i+1
+
+output:-
+
+hello 1
+hello 2
+hello 3
+hello 4
+hello 5
+hello 6
+hello 7
+
+2) i=140
+   while(i<=49):
+      print(i)
+      i+=1
+
+output:- 
+40
+41
+42
+43
+45
+46
+47
+48
+49
+
+3) i=1
+   while(i<10):
+     print(i)
+     i+=1
+
+output:-
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+4) LCM of two numbers
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+if a > b:
+    lcm = a
+else:
+    lcm = b
+while True:
+    if lcm % a == 0 and lcm % b == 0:
+        print("LCM of", a, "and", b, "is", lcm)
+        break
+    else:
+        lcm = lcm + 1
+
+output:-
+LCM of 4 and 5 is 20
+
+5) String palindrome code
+text = input("Enter a string: ")
+text = text.replace(" ", "").lower()
+start = 0
+end = len(text) - 1
+is_palindrome = True
+while start < end:
+    if text[start] != text[end]:
+        is_palindrome = False
+        break
+    else:
+        start = start + 1
+        end = end - 1
+if is_palindrome:
+    print("The string is a palindrome.")
+else:
+    print("The string is not a palindrome.")
+
+Output:-
+Enter a string: Madam
+The string is a palindrome
