@@ -1,0 +1,153 @@
+#Python
+
+Python is a versatile, high-level, general-purpose programming language known for its readability and simplicity. 
+It's widely used in various fields like web development, data science, machine learning, and automation. 
+Python's open-source nature and extensive libraries make it a popular choice for both beginners and experienced programmers. 
+
+# Basic python features
+
+1) High-Level Language
+
+2) Open Source and Free
+
+3) Easy To Learn And Read
+
+4) Interpreted Language
+
+5) User Friendly GUI
+
+# Codes in Python
+
+1)print("Hello World") # print:- It is used to print data on console window 
+  print("Hello Arnav")
+
+  -Output:-
+   Hello World
+   Hello Arnav
+
+2)print("Hello World", end='-')  # end:- It is used to print space between two different sentences
+  print("Hello Arnav")
+
+  -Output:-
+   Hello World-Hello Arnav
+
+3)print("Hello World", end='$')
+  print("Hello Arnav")
+
+  -Output:-
+   Hello World $ Hello Arnav
+
+4) x=10             
+print(type(x))   # type:- It is used to determine datatype of an object.
+
+ -output:-
+  <class 'int'>
+
+5) x="10"
+print(type(x))
+
+ -output:-
+  <class 'str'>
+
+6) year=2025
+   print("My year is", year)
+
+  -output:-
+    My year is 2025
+
+7)year=2025
+  company="Regex Software"
+  print("My year is", year , "Company name is =>" , company)
+
+  -output:-
+    My year is 2025 company name is => Regex software
+
+
+8)year=2025
+  company="Regex Software"
+  print(f "My year is {year} Company name is => {company}") # String formatting
+
+  -output:-
+    My year is 2025 company name is => Regex software
+
+9) address=""" regex, xml circle road Jaipur # string comment
+   Rajasthan 302018"""          
+ 
+10) Basic arithmetic operator in python are:-
+    
+    i) + = Addition
+    
+   ii) - = Subtraction
+  
+   iii) / = Division
+
+   iv) * = Multiplication
+
+   v) % = Modulus
+   
+   vi) // = Floor Division
+
+  vii) ** = Exponentiation 
+
+--> Relational operators
+
+    i) < = Less Than
+    
+   ii) <= = Less Than Equals to
+  
+   iii) > = Greater Than
+
+   iv) >= = Greater Than Equals to
+
+   v) == = Assignment
+
+   vi) != = Not Equals to
+
+--> Logical operators
+
+    i) AND
+    
+   ii) OR
+  
+   iii) NOT
+
+--> Bitwise Operator
+   
+    i) &
+    
+   ii) |
+  
+   iii) <<
+
+   iv) >>
+
+   v) -
+
+   vi) ^
+
+# code
+
+1) 10*2-3**2
+
+ output:-
+        11
+
+2) 10>2
+
+  output:-
+   True
+ 
+3) 10>2 or 10>5
+
+  output:-
+   True
+
+
+
+
+
+
+
+ 
+
+
