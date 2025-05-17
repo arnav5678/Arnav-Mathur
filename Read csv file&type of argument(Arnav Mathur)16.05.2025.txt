@@ -1,0 +1,141 @@
+# type of argument
+1)
+def func(x,y,z=100)
+  print(f"x:{x}, y:{y}, z:{z}}
+
+func(10,20,30) #position argument
+func(10,20,30)
+func(y=10,x=20,z=30) #keyword argument
+func(y=20,x=10)  #default
+
+output:-
+
+x:10, y:20, z:30
+x:20, y:10, z:30
+x:10, y:20, z:30
+
+2)
+def func(x):
+  print(x+50)
+
+out=func(10)
+print("out=>,out)
+
+output:-
+60
+out=> None
+
+3)
+def func(x):
+  print(x+50)
+  return 100
+
+out=func(10)
+print("out=>,out)  #return keyword is useful to take back the value from the functions
+                   # and use it later on by program
+output:-
+60
+out=> 100
+
+# lambda functions => functions
+# 1 line functions
+# anonymous functions
+# They don't have a name
+
+1)
+def addNo(num)
+   return num+5
+
+addNo(10)
+addNo(7)
+
+output:-
+15
+12
+
+2) lambda num: num+5
+y(10)
+
+output:-
+15
+
+#map() => element => return
+#[10,20,30,11,15,18]
+
+1)len("hey")
+
+output:-
+3
+
+2)print(list(map(len,["hey","hello"])))
+output:-
+[3,5]
+
+3)print(map(len,["hey","hello"]))
+
+output:-
+<map object at 0x000001B3C53CF970>
+
+3)print(tuple(map(len,["hey","hello"])))
+output:-
+(3,5)
+
+4) list(map(lambda x:x*x, [10,5,4,3] ))
+
+output:-
+[100,25,16,9]
+
+5) list(filter(lambda x:x%2==0, [10,5,4,3] ))
+
+output:-
+[10,4]
+
+5) list(map(lambda x:x%2==0, [10,5,4,3] ))
+
+output:-
+[True, False , True, False]
+
+# Read and Write in python file
+
+1) To read file
+f=open("user.txt","r")
+print(f.read())
+f.close()
+
+2) To write in file
+f=open("user.txt","w")
+f.write("ujjwal")
+f.close()
+
+3)If we don't have file with name abc it will create new one
+f=open("abc.txt","w")
+f.write("ujjwal")
+f.close()
+
+4) Do read and write both
+f=open("abc.txt","r+")
+print(f.read())
+f.write("ujjwal")
+f.close()
+
+4) Append
+f=open("abc.txt","a")
+f.write("###")
+f.close()
+
+5)
+f=open("abc.txt","r")
+for line in f:
+  print(line.splt(","))
+
+6) csv file
+import csv
+f=open("abc.txt","r")
+data=csv.reader(f)
+for line in data:
+  print(line)
+   
+
+
+
+ 
