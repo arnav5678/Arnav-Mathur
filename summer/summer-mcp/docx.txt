@@ -1,0 +1,44 @@
+Step 1 ---> open the vs code in blank(summer) folder
+
+Step 2 ---> open the terminal and write
+
+Step 3 ---> uv init summer-mcp
+
+Step 4 ---> cd summer-mcp
+
+Step 5 ---> uv venv
+
+Step 6 ---> .venv\Scripts\activate
+
+ what is MCP(Model Context Protocol)?
+-->MCP (Model Context Protocol) changes that. 
+It gives AI agents a simple, standardized way to plug into tools, data, and services — no hacks, no hand-coding. 
+With MCP, AI goes from smart… to actually useful.
+
+what is virtual enviroment in programming?
+--->A Python Virtual Environment is an isolated space where you can work on your Python projects, separately from your system-installed Python.
+ You can set up your own libraries and dependencies without affecting the system Python. 
+ We will use "venv" to create a virtual environment in Python.
+
+ what is API(Application Programming Interface)?
+ --->An API (Application Programming Interface) is a set of rules and protocols that allows different software systems to communicate and exchange data.
+  Think of it as an intermediary that enables applications to interact with each other, rather than requiring direct, complex interactions. 
+
+In simple words API key ---> Application Programming Interface ----> Mediator(user , server)
+
+What is Groq?
+---> Groq is a technology company specializing in high-performance AI inference solutions, particularly known for its GroqChip and Language Processing Unit (LPU).
+ Groq's LPU is designed to accelerate the processing of AI workloads, especially those involving large language models (LLMs)
+
+We are using Groq_API key to make this project
+
+GROQ_API_KEY -----> Go to google ---> Search groq api key ---> click on create a new api key
+
+What is .env?
+--->A .env file is a simple text file that stores environment variables for an application. 
+These variables are often used to configure settings like API keys, database connections, or application settings, which can vary between different environments (e.g., development, testing, production).
+ By storing these variables in a separate file, it's easier to manage them and keep sensitive information out of the code itself. 
+
+ Main moto of this application which we are making is:-
+
+ User ----> request LLM information request if not available than go to mcp servers ---> (MCP server and give us Live information)
